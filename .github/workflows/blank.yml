@@ -11,7 +11,7 @@ jobs:
         run: echo "The job was triggered by ${{ github.event_name }}."
         
       - name: Print the OS of the runner
-        run: echo "The job is running on a ${{ ruuner.os }} server."
+        run: echo "The job is running on a ${{ runner.os }} server."
 
       - name: Print the branch name that the workflow runs on
         run: echo "The name of your branch is ${{ github.ref }}."
